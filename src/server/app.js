@@ -17,14 +17,14 @@ app.use(express.static("./uploads"));
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '1234',
+    password: '123456@Vais',
     database: 'mydatabase'
 })
 
 const roomdb = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '1234',
+    password: '123456@Vais',
     database: 'hotel_rooms'
 })
 
